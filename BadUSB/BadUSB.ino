@@ -16,15 +16,15 @@ void shell() {
 void setup() {
   delay(1000);
 
-  // Keyboard.print("<");
-
   Keyboard.press(KEY_LEFT_GUI);
-  Keyboard.press(114);
+  // Keyboard.press(114);
   Keyboard.releaseAll();
   
   delay(1000);
   Keyboard.print("powershell");
+  delay(100);
   Keyboard.press(KEY_RETURN);
+  delay(100);
   Keyboard.releaseAll();
 
   delay(1500);
